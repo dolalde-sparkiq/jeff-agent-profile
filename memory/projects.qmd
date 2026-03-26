@@ -1,0 +1,10 @@
+---
+title: "Projects"
+description: "Project context and status"
+---
+
+# Active Projects
+
+- ERP
+  - Goal: Ship a correct, secure, and maintainable commercial real estate ERP by making the right architectural decisions early and enforcing them consistently.
+  - Status: active

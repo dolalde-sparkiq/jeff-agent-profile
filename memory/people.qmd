@@ -1,0 +1,10 @@
+---
+title: "People"
+description: "Important people and relationships"
+---
+
+# Key People
+
+- Fernando Arriaga: Co-Founder and CEO
+- Williams Verde: Co-Founder and CTO
+- Diego Olalde: Co-Founder and Head of Innovation
