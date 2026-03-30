@@ -9,8 +9,9 @@ description: "Important people, relationships, and agent handles"
 - Williams Verde: Co-Founder and CTO — GitHub handle: `sparkiq-git`
 - Diego Olalde: Co-Founder and Head of Innovation — GitHub: `dolalde-sparkiq`
 
+
 # Agent Handles
 
-- Dev agent GitHub handle (your own): `TODO: add Jeff's GitHub username`
-- PM agent GitHub handle (Sparky): `TODO: add Sparky's GitHub username`
-- Code review agent GitHub handle: `TODO: add code review agent GitHub username`
+- Dev agent GitHub handle (Jeff): `dolalde-sparkiq`
+- PM agent GitHub handle (Sparky): `sparkIQ-scrum`
+- Code review agent handle: not set (PRs will wait for human review)
