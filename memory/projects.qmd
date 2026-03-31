@@ -12,11 +12,11 @@ description: "Project context, repositories, and architectural principles"
 
 ### Repositories
 
-- **FE**: `sparkiq-gh/sparkiq-erp`
+- **FE**: `sparkiq-gh/sparkiq-erp-fe`
   - Stack: Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui, Sentry, pnpm
   - Structure: `app/`, `components/`, `hooks/`, `lib/`, `utils/`, `helpers/`, `types/`
 
-- **BE**: `sparkiq-gh/erp-api`
+- **BE**: `sparkiq-gh/sparkiq-erp-be`
   - Stack: NestJS, TypeScript, Drizzle ORM, PostgreSQL via Supabase, BullMQ, Supabase Auth (SSR/JWT/RLS)
   - Structure: `src/`, `test/`, `scripts/`, `drizzle/`, `Documentation/`, `docs/`
   - Has `.claude/` Claude Code config
@@ -27,8 +27,8 @@ description: "Project context, repositories, and architectural principles"
 
 ### GitHub Projects
 
-- FE Planning: project #1 (scope:frontend issues)
-- BE Planning: project #2 (scope:backend issues)
+- FE Planning: project #3 → https://github.com/orgs/sparkiq-gh/projects/3
+- BE Planning: project #4 → https://github.com/orgs/sparkiq-gh/projects/4
 
 ### Three Delivery Goals (strategic north star)
 
