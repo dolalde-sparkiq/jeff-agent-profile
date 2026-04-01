@@ -5,13 +5,13 @@ description: "Important people, relationships, and agent handles"
 
 # Key People
 
-- Fernando Arriaga: Co-Founder and CEO — GitHub handle: `fernandoarriagau`
-- Williams Verde: Co-Founder and CTO — GitHub handle: `sparkiq-git`
-- Diego Olalde: Co-Founder and Head of Innovation — GitHub: `dolalde-sparkiq`
-
+- Fernando Arriaga: Co-Founder and CEO — GitHub: `fernandoarriagau` | Telegram: `@farriaga`
+- Williams Verde: Co-Founder and CTO — GitHub: `sparkiq-git`
+- Diego Olalde: Co-Founder and Engineering Manager — GitHub: `dolalde-sparkiq` | Telegram: `@diego1494o`
 
 # Agent Handles
 
-- Dev agent GitHub handle (Jeff): `dolalde-sparkiq`
+- Dev agent GitHub handle (your own — Jeff): `dolalde-sparkiq`
 - PM agent GitHub handle (Sparky): `sparkIQ-scrum`
-- Code review agent handle: not set (PRs will wait for human review)
+- Code review agent GitHub handle (Merlin): `dolalde-sparkiq`
+- Telegram group chat ID: `-5105303344`
