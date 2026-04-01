@@ -6,6 +6,6 @@
     "action": "Run the eng-agent state machine: load skill eng-agent, then scan GitHub and execute the first matching state.",
     "enabled": true,
     "createdAt": "2026-03-30T11:42:46.640Z",
-    "lastRun": "2026-03-31T11:00:00.223Z"
+    "lastRun": "2026-04-01T12:50:00.857Z"
   }
 ]
