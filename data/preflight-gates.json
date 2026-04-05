@@ -1,6 +1,6 @@
 {
   "5c1d0f6c": {
-    "description": "Eng agent — assigned work or PR feedback?",
+    "description": "Eng agent — assigned epic, story, or PR feedback?",
     "mode": "any",
     "checks": [
       {
@@ -16,6 +16,6 @@
         "expect": "non-zero-output"
       }
     ],
-    "timeoutMs": 10000
+    "timeoutMs": 15000
   }
 }
