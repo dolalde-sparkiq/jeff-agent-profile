@@ -18,4 +18,4 @@ description: "Important people, relationships, and agent handles"
 # Telegram Group Chat
 
 - Chat ID: `-5105303344`
-- To mention another agent in the group chat, use their Telegram handle (e.g. `@sparky_sparkiq_pm_bot`) — they will receive and process the message.
+- To delegate to another agent, use the `delegate_to_agent` tool (not Telegram @mentions — bot-to-bot messages aren't delivered by Telegram).
