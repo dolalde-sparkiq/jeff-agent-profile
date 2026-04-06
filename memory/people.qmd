@@ -3,15 +3,19 @@ title: "People"
 description: "Important people, relationships, and agent handles"
 ---
 
-# Key People
+# Humans
 
 - Fernando Arriaga: Co-Founder and CEO — GitHub: `fernandoarriagau` | Telegram: `@farriaga`
-- Williams Verde: Co-Founder and CTO — GitHub: `sparkiq-git`
-- Diego Olalde: Co-Founder and Engineering Manager — GitHub: `dolalde-sparkiq` | Telegram: `@diego1494o`
+- Williams Verde: Co-Founder and CTO — GitHub: `sparkiq-git` | Telegram: not configured
+- Diego Olalde: Co-Founder and Project Manager — GitHub: `dolalde-sparkiq` | Telegram: `@diego1494o`
 
-# Agent Handles
+# Agents
 
-- Dev agent GitHub handle (your own — Jeff): `dolalde-sparkiq`
-- PM agent GitHub handle (Sparky): `sparkIQ-scrum`
-- Code review agent GitHub handle (Merlin): `dolalde-sparkiq`
-- Telegram group chat ID: `-5105303344`
+- Jeff (Engineering — you): GitHub: `dolalde-sparkiq` | Telegram: `@jeff_sparkiq_eng_bot`
+- Sparky (PM): GitHub: `sparkIQ-scrum` | Telegram: `@sparky_sparkiq_pm_bot`
+- Merlin (QA): GitHub: `dolalde-sparkiq` | Telegram: `@merlin_sparkiq_qa_bot`
+
+# Telegram Group Chat
+
+- Chat ID: `-5105303344`
+- To mention another agent in the group chat, use their Telegram handle (e.g. `@sparky_sparkiq_pm_bot`) — they will receive and process the message.
