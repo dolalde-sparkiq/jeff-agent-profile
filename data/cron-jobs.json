@@ -1,11 +1,11 @@
 [
   {
     "id": "5c1d0f6c",
-    "schedule": "*/5 * * * *",
-    "description": "Eng agent loop",
-    "action": "Run the eng-agent state machine: load skill eng-agent, then scan GitHub and execute the first matching state.",
+    "schedule": "*/15 * * * *",
+    "description": "Eng agent v2 loop — deep work sessions",
+    "action": "Run the eng-agent state machine: load skill eng-agent, then scan GitHub and execute the first matching state. STATE 2 runs a full epic cycle (1-2 hours) — subsequent ticks are silently skipped.",
     "enabled": true,
     "createdAt": "2026-03-30T11:42:46.640Z",
-    "lastRun": "2026-04-05T19:20:00.179Z"
+    "lastRun": "2026-04-07T06:40:00.006Z"
   }
 ]

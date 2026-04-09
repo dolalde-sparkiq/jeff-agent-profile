@@ -1,18 +1,24 @@
 {
   "5c1d0f6c": {
-    "description": "Eng agent — assigned epic, story, or PR feedback?",
+    "description": "Eng agent v2 — epic in-progress or PR with changes requested?",
     "mode": "any",
     "checks": [
       {
-        "name": "assigned-in-development",
+        "name": "epic-in-progress",
         "type": "shell",
-        "command": "count_fe=$(gh issue list --repo sparkiq-gh/sparkiq-erp-fe --assignee @me --label status:in-development --state open --json number --jq 'length') && count_be=$(gh issue list --repo sparkiq-gh/sparkiq-erp-be --assignee @me --label status:in-development --state open --json number --jq 'length') && echo $(($count_fe + $count_be))",
+        "command": "count_fe=$(gh issue list --repo sparkiq-gh/sparkiq-erp-fe --assignee @me --label 'type:epic,status:in-progress' --state open --json number --jq 'length') && count_be=$(gh issue list --repo sparkiq-gh/sparkiq-erp-be --assignee @me --label 'type:epic,status:in-progress' --state open --json number --jq 'length') && echo $(($count_fe + $count_be))",
         "expect": "non-zero-output"
       },
       {
-        "name": "changes-requested-on-my-prs",
+        "name": "changes-requested-pr-be",
         "type": "shell",
-        "command": "count_fe=$(gh issue list --repo sparkiq-gh/sparkiq-erp-fe --assignee @me --label status:changes-requested --state open --json number --jq 'length') && count_be=$(gh issue list --repo sparkiq-gh/sparkiq-erp-be --assignee @me --label status:changes-requested --state open --json number --jq 'length') && echo $(($count_fe + $count_be))",
+        "command": "gh pr list --repo sparkiq-gh/sparkiq-erp-be --author @me --state open --json reviewDecision --jq '[.[] | select(.reviewDecision == \"CHANGES_REQUESTED\")] | length'",
+        "expect": "non-zero-output"
+      },
+      {
+        "name": "changes-requested-pr-fe",
+        "type": "shell",
+        "command": "gh pr list --repo sparkiq-gh/sparkiq-erp-fe --author @me --state open --json reviewDecision --jq '[.[] | select(.reviewDecision == \"CHANGES_REQUESTED\")] | length'",
         "expect": "non-zero-output"
       }
     ],
